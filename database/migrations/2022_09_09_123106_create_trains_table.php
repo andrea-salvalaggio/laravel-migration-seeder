@@ -21,7 +21,7 @@ class CreateTrainsTable extends Migration
             $table->time('departure_hour');
             $table->time('arrival_hour');
             $table->string('pnr', 6);
-            $table->tinyInteger('carriages', 15);
+            $table->tinyInteger('carriages');
             $table->boolean('on_time')->default(1);
             $table->boolean('cancelled')->default(0);
             $table->timestamps();
