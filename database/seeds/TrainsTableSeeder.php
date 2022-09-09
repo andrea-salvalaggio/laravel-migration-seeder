@@ -22,8 +22,8 @@ class TrainsTableSeeder extends Seeder
                 'arrival_hour' => '18:20',
                 'pnr' => 'AS123R',
                 'carriages' => '6',
-                'on_time'=> 1,
-                'cancelled'=> 0,
+                'on_time'=> true,
+                'cancelled'=> false,
             ],
             [
                 'business_company' => 'Italo treno',
@@ -33,8 +33,8 @@ class TrainsTableSeeder extends Seeder
                 'arrival_hour' => '19:20',
                 'pnr' => 'PD987Y',
                 'carriages' => '10',
-                'on_time' => 0,
-                'cancelled' => 0,
+                'on_time' => true,
+                'cancelled' => false,
             ],
             [
                 'business_company' => 'Frecciarossa',
@@ -44,8 +44,8 @@ class TrainsTableSeeder extends Seeder
                 'arrival_hour' => '00:19',
                 'pnr' => 'LV645U',
                 'carriages' => '8',
-                'on_time' => 0,
-                'cancelled' => 1,
+                'on_time' => false,
+                'cancelled' => true,
             ]
         ];
 
